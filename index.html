@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest JS intermediário</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="texto">
+            <h1>FICOU COM DÚVIDAS?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+        <form class="formulario">
+
+            <input type="text" name="nome" id="nome" placeholder="  Nome completo*">
+            <span class="mensagem-de-aviso invisivel">campo obrigatório</span>
+
+            <input type="password" name="telefone" id="telefone" placeholder="  Telefone*">
+            <span class="mensagem-de-aviso invisivel">campo obrigatório</span>
+
+            <input type="email" name="email" id="email" placeholder="  Email*">
+            <span class="mensagem-de-aviso invisivel">campo obrigatório</span>
+
+            <textarea name="mensagem" id="mensagem" placeholder="  Mensagem*"
+                maxlength="350"></textarea>
+            <span class="mensagem-de-aviso invisivel">campo obrigatório</span>
+            
+            <span class="orientacao">*Campos obrigatórios</span>
+            <input  id="botao-de-envio" type="submit" value="Enviar">
+            
+        </form>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
